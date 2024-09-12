@@ -1,0 +1,303 @@
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6 (master)
+$ cd programaInteractivo
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ nano programaInteractivo
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ npm init -y
+Wrote to C:\Users\alarc\OneDrive\Escritorio\PRACTIANDO HTML\MODULO6\SESION5-M6\programaInteractivo\package.json:
+
+{
+  "name": "programainteractivo",
+  "version": "1.0.0",
+  "main": "programaInteractivo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ npm install node-fetch@2
+
+added 4 packages, and audited 5 packages in 2s
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6 (master)
+$ cd programaInteractivo
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ mkdir funciones
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ cd funciones
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ touch leerArchivo.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ touch escribirDatos.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ touch eliminaPropiedades.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ touch verificaParametrosEntrada.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ touch validarOpcionesEntrada.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ nano leerArchivo.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ nano escribirDatos.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ nano eliminarPropiedades.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ nano verificaParametrosEntrada.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ nano validarOpcionesEntrada.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo/funciones (master)
+$ cd ..
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ nano apiRequest.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ nano programaInteractivo.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ npm install node-fetch
+
+up to date, audited 5 packages in 1s
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ node programaInteractivo.js comments
+Datos guardados en comments.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ node programaInteractivo.js photos
+Datos guardados en photos.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ node programaInteractivo.js albums
+Datos guardados en albums.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ node programaInteractivo.js todos
+Datos guardados en todos.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ node programaInteractivo.js posts
+Datos guardados en posts.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)
+$ node programaInteractivo.js photos
+Consultando la API para photos...
+Datos obtenidos para photos: [
+  {
+    albumId: 1,
+    id: 1,
+    title: 'accusamus beatae ad facilis cum similique qui sunt',
+    url: 'https://via.placeholder.com/600/92c952',
+    thumbnailUrl: 'https://via.placeholder.com/150/92c952'
+  },
+  {
+    albumId: 1,
+    id: 2,
+    title: 'reprehenderit est deserunt velit ipsam',
+    url: 'https://via.placeholder.com/600/771796',
+    thumbnailUrl: 'https://via.placeholder.com/150/771796'
+  },
+  {
+    albumId: 1,
+    id: 3,
+    title: 'officia porro iure quia iusto qui ipsa ut modi',
+    url: 'https://via.placeholder.com/600/24f355',
+    thumbnailUrl: 'https://via.placeholder.com/150/24f355'
+  },
+  {
+    albumId: 1,
+    id: 4,
+    title: 'culpa odio esse rerum omnis laboriosam voluptate repudiandae',
+    url: 'https://via.placeholder.com/600/d32776',
+    thumbnailUrl: 'https://via.placeholder.com/150/d32776'
+  },
+  {
+    albumId: 1,
+    id: 5,
+    title: 'natus nisi omnis corporis facere molestiae rerum in',
+    url: 'https://via.placeholder.com/600/f66b97',
+    thumbnailUrl: 'https://via.placeholder.com/150/f66b97'
+  }
+]
+Datos guardados en photos.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)  
+$ node programaInteractivo.js todos 
+Consultando la API para todos...
+Datos obtenidos para todos: [
+  { userId: 1, id: 1, title: 'delectus aut autem', completed: false },
+  {
+    userId: 1,
+    id: 2,
+    title: 'quis ut nam facilis et officia qui',
+    completed: false
+  },
+  { userId: 1, id: 3, title: 'fugiat veniam minus', completed: false },
+  { userId: 1, id: 4, title: 'et porro tempora', completed: true },
+  {
+    userId: 1,
+    id: 5,
+    title: 'laboriosam mollitia et enim quasi adipisci quia provident illum',
+    completed: false
+  }
+]
+Datos guardados en todos.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)  
+$ node programaInteractivo.js post  
+Opción inválida. Debes usar una de las siguientes opciones: comments, photos, albums, todos, posts.
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)  
+$ node programaInteractivo.js posts 
+Consultando la API para posts...
+Datos obtenidos para posts: [
+  {
+    userId: 1,
+    id: 1,
+    title: 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
+    body: 'quia et suscipit\n' +
+      'suscipit recusandae consequuntur expedita et cum\n' +
+      'reprehenderit molestiae ut ut quas totam\n' +
+      'nostrum rerum est autem sunt rem eveniet architecto'
+  },
+  {
+    userId: 1,
+    id: 2,
+    title: 'qui est esse',
+    body: 'est rerum tempore vitae\n' +
+      'sequi sint nihil reprehenderit dolor beatae ea dolores neque\n' +
+      'fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\n' +
+      'qui aperiam non debitis possimus qui neque nisi nulla'
+  },
+  {
+    userId: 1,
+    id: 3,
+    title: 'ea molestias quasi exercitationem repellat qui ipsa sit aut',
+    body: 'et iusto sed quo iure\n' +
+      'voluptatem occaecati omnis eligendi aut ad\n' +
+      'voluptatem doloribus vel accusantium quis pariatur\n' +
+      'molestiae porro eius odio et labore et velit aut'
+  },
+  {
+    userId: 1,
+    id: 4,
+    title: 'eum et est occaecati',
+    body: 'ullam et saepe reiciendis voluptatem adipisci\n' +
+      'sit amet autem assumenda provident rerum culpa\n' +
+      'quis hic commodi nesciunt rem tenetur doloremque ipsam iure\n' +
+      'quis sunt voluptatem rerum illo velit'
+  },
+  {
+    userId: 1,
+    id: 5,
+    title: 'nesciunt quas odio',
+    body: 'repudiandae veniam quaerat sunt sed\n' +
+      'alias aut fugiat sit autem sed est\n' +
+      'voluptatem omnis possimus esse voluptatibus quis\n' +
+      'est aut tenetur dolor neque'
+  }
+]
+Datos guardados en posts.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)  
+$ node programaInteractivo.js comments
+Consultando la API para comments...
+Datos obtenidos para comments: [
+  {
+    postId: 1,
+    id: 1,
+    name: 'id labore ex et quam laborum',
+    email: 'Eliseo@gardner.biz',
+    body: 'laudantium enim quasi est quidem magnam voluptate ipsam eos\n' +
+      'tempora quo necessitatibus\n' +
+      'dolor quam autem quasi\n' +
+      'reiciendis et nam sapiente accusantium'
+  },
+  {
+    postId: 1,
+    id: 2,
+    name: 'quo vero reiciendis velit similique earum',
+    email: 'Jayne_Kuhic@sydney.com',
+    body: 'est natus enim nihil est dolore omnis voluptatem numquam\n' +
+      'et omnis occaecati quod ullam at\n' +
+      'voluptatem error expedita pariatur\n' +
+      'nihil sint nostrum voluptatem reiciendis et'
+  },
+  {
+    postId: 1,
+    id: 3,
+    name: 'odio adipisci rerum aut animi',
+    email: 'Nikita@garfield.biz',
+    body: 'quia molestiae reprehenderit quasi aspernatur\n' +
+      'aut expedita occaecati aliquam eveniet laudantium\n' +
+      'omnis quibusdam delectus saepe quia accusamus maiores nam est\n' +
+      'cum et ducimus et vero voluptates excepturi deleniti ratione'
+  },
+  {
+    postId: 1,
+    id: 4,
+    name: 'alias odio sit',
+    email: 'Lew@alysha.tv',
+    body: 'non et atque\n' +
+      'occaecati deserunt quas accusantium unde odit nobis qui voluptatem\n' +
+      'quia voluptas consequuntur itaque dolor\n' +
+      'et qui rerum deleniti ut occaecati'
+  },
+  {
+    postId: 1,
+    id: 5,
+    name: 'vero eaque aliquid doloribus et culpa',
+    email: 'Hayden@althea.biz',
+    body: 'harum non quasi et ratione\n' +
+      'tempore iure ex voluptates in ratione\n' +
+      'harum architecto fugit inventore cupiditate\n' +
+      'voluptates magni quo et'
+  }
+]
+Datos guardados en comments.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)  
+$ node programaInteractivo.js albums
+Consultando la API para albums...
+Datos obtenidos para albums: [
+  { userId: 1, id: 1, title: 'quidem molestiae enim' },
+  { userId: 1, id: 2, title: 'sunt qui excepturi placeat culpa' },
+  { userId: 1, id: 3, title: 'omnis laborum odio' },
+  {
+    userId: 1,
+    id: 4,
+    title: 'non esse culpa molestiae omnis sed optio'
+  },
+  { userId: 1, id: 5, title: 'eaque aut omnis a' }
+]
+Datos guardados en albums.txt
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION5-M6/programaInteractivo (master)  
+$
